@@ -1,4 +1,3 @@
-![ci](https://github.com/ecetinerdem/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
 
 # learn-cicd-starter (Notely)
 
