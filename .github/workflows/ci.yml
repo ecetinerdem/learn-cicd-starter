@@ -2,8 +2,7 @@ name: ci
 
 on:
   pull_request:
-    branches:
-      - main
+    branches: [main]
 
 jobs:
   tests:
@@ -37,5 +36,3 @@ jobs:
 
       - name: Check code format
         run: test -z "$(go fmt ./...)"
-
-
